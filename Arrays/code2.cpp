@@ -9,6 +9,5 @@ int main() {
             smallest = numbers[i];
         }
     }
-    cout << "The smallest number in the array is: " << smallest << endl;
-    return 0;
+
 }

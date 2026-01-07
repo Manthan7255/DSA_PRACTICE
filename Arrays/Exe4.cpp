@@ -1,4 +1,4 @@
-#include<iostream
+#include<iostream>
 using namespace std;
 int Intersection(int arr1[], int n1, int arr2[], int n2){
     cout << "Intersection elements are:\n";
@@ -6,7 +6,7 @@ int Intersection(int arr1[], int n1, int arr2[], int n2){
         for(int j=0;j<n2;j++){
             if(arr1[i] == arr2[j]){
                 cout << arr1[i] << " ";
-                break; 
+                break; // To avoid printing duplicates if arr2 has repeated elements
             }
         }
     }
@@ -36,5 +36,4 @@ int main(){
     Intersection(array1, size1, array2, size2);
 
     return 0;
-
 }
